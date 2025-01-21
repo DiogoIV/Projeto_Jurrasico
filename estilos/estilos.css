@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --cor0: #0CF25D;
+    --cor1: #038C3E;
+    --cor2: #02735E;
+    --cor3:  #025951; 
+
+    --font01: "Passion One", serif;
+    --font02: "Rock Salt", serif;
+
+}
+
+/*---Cabeçalho---*/
+header {
+    position: relative;
+    background-image: url(../imagens/dinofundo.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 0px 0px 2px black;
+    height: 250px;
+    padding: 10px;
+}
+
+header h1{
+    color: var(--cor1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: var(--font01);
+    text-shadow: 0px 1px 1px black;
+    margin-top: 70px;
+}
+
+
+nav  {
+    position: fixed;
+    top: 22%;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
+}
+
+nav a {
+    padding: 10px;
+    color: #0cf25dce;
+    background-color: #0ba38a48;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: var(--font01);
+}
+
+nav a:hover {
+    border-radius: 15px;
+    color: var(--cor1);
+    transition: 0.5s;
+}
+
+/*---Principal---*/
+
+body {
+    background-color: var(--cor1);
+    /*background-image: url(../imagens/bodyd.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;*/
+}
+
+main {
+    padding: 10px;
+    font-family: ;
+    width: 300px;
+    background-color: white;
+    margin: auto;
+}
+
+main h1 {
+    font-size: 32px;
+}
