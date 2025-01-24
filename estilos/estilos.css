@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 html, body {
     min-height: 100%;
@@ -23,7 +22,6 @@ html, body {
     --cor3:  #025951; 
 
     --font01: "Passion One", serif;
-    --font02: "Rock Salt", serif;
     --font03: "Bebas Neue", sans-serif;
 
 }
@@ -31,62 +29,68 @@ html, body {
 /*---Cabeçalho---*/
 header {
     position: relative;
-    background-image: url(../imagens/dinofundo.png.jpg);
+    background-image: url(../imagens/dino.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     box-shadow: 0px 0px 2px black;
-    height: 250px;
-    padding: 10px;
+    height: 200px;
+    padding: 20px;
 }
 
-header h1{
-    color: var(--cor1);
-    text-align: center;
-}
+    
 
 header h1 {
-    font-size: 3em;
+    color: var(--cor2);
+    text-align: center;
+
+    font-size: 2.5em;
     font-family: var(--font01);
     text-shadow: 0px 1px 1px black;
     margin-top: 70px;
+    transition: transform 0.3s ease-in-out;
 }
 
 
 nav  {
     position: relative;
-    top: 22%;
+    top: 20%;
     margin-bottom: 50px;
     padding-bottom: 50px;
     
 }
 
 nav a {
-    padding: 10px;
-    color: #0cf25dce;
-    background-color: #0ba38a48;
+    padding: 8px 15px;
+    color: var(--cor2);
+    background-color: #02595034;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 1.3em;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.1em;
     font-family: var(--font01);
 }
 
 nav a:hover {
-    border-radius: 15px;
-    color: var(--cor1);
+    background-color: var(--cor2);  
+    color: #034d45;
+    padding: 7px;
     transition: 0.5s;
 }
 
 /*---Principal---*/
 
 body {
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    background-image: linear-gradient(to bottom, #f4f4f4, #d6d6d6)
 }
 
 main {
-    padding: 10px;
-    width: 350px;
-    background-color: white;
+    color: #333;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
     margin: auto;
 }
 
@@ -102,14 +106,34 @@ main h2#principal {
     text-align: center;
 }
 
-main h3 {
-    padding: 5px;
+main h2#t2 {
+    margin-bottom: 15px;
+    text-align: center;
 }
 
+main h3 {
+    padding: 5px;
+    color: #034d45;
+}
+
+main h3#t3 {
+    background-image: linear-gradient(to right, #034d4693, transparent);
+}
+
+main a#linke {
+    text-decoration: none;
+    color: #034d45;
+    background-color: #69c4b3;
+}
+
+main a#linke:hover {
+    text-decoration: underline;
+}
 main p {
-    padding: 10px 10px 17px 10px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 15px;
-    line-height: 1.8em;
+    line-height: 2em;
     font-weight: none;
+    text-align: justify;
 }

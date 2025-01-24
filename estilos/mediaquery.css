@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        background-image: url('../imagens/dino-t.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    main {
+
+        min-width: 40px;    
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        background-image: url('../imagens/dino-g.jpg');
+        background-size:  cover;
+        background-position: center;
+    }
+}
