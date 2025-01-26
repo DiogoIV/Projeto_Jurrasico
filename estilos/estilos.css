@@ -29,12 +29,12 @@ html, body {
 /*---Cabeçalho---*/
 header {
     position: relative;
-    background-image: url(../imagens/dino.webp);
+    background-image: url(../imagens/dino.png);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center 42%;
     background-size: cover;
-    box-shadow: 0px 0px 2px black;
-    height: 200px;
+    box-shadow: 0px 0px 3px black;
+    height: 230px;
     padding: 20px;
 }
 
@@ -54,14 +54,15 @@ header h1 {
 
 nav  {
     position: relative;
-    top: 20%;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    top: 30%;
+    right: 1%
     
 }
 
 nav a {
-    padding: 8px 15px;
+    border: 2px solid var(--cor2);
+    background-color: transparent;
+    padding: 7px 10px;
     color: var(--cor2);
     background-color: #02595034;
     border-radius: 10px;
@@ -72,7 +73,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--cor2);  
     color: #034d45;
     padding: 7px;
     transition: 0.5s;
@@ -101,9 +101,6 @@ main h2 {
     font-size: large;
     color: var(--cor2);
     font-size: 32px;
-}
-
-main h2#principal {
     text-align: center;
 }
 
@@ -121,13 +118,13 @@ main h3#t3 {
     background-image: linear-gradient(to right, #034d4693, transparent);
 }
 
-main a#linke {
+main a.link {
     text-decoration: none;
     color: #034d45;
     background-color: #69c4b3;
 }
 
-main a#linke:hover {
+main a.link:hover {
     text-decoration: underline;
 }
 main p {
@@ -138,3 +135,16 @@ main p {
     font-weight: none;
     text-align: justify;
 }
+
+main img {
+    display: block;
+    margin: auto;
+}
+
+main img#ima {
+
+    width: 300px;
+
+}
+
+/* rodapé */

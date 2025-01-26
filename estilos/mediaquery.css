@@ -3,19 +3,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     header {
-        background-image: url('../imagens/dino-t.jpg');
-        background-size: cover;
-        background-position: center center;
-        
+        background-position: center 41%;
     }
     header h1 {
         font-size:  46px;
     }
     nav  {
         position: relative;
-        top: 15%;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
+        top: 27%;
         
     }
     main {
@@ -26,19 +21,15 @@
 
 @media screen and (min-width: 992px) {
     header {
-        background-image: url('../imagens/dino-g.jpg');
-        background-size:  cover;
-        background-position: center;
-    }
-    nav  {
-        position: relative;
-        top: 14%;
-        margin-bottom: 50px;
-        padding-bottom: 50px;
-        
+        background-position: center 41%;
     }
     header h1 {
         font-size:  46px;
+    }
+    nav  {
+        position: relative;
+        top: 27%;
+        
     }
     main {
         width: 900px;
