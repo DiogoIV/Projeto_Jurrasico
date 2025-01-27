@@ -101,12 +101,15 @@ main h2 {
     font-size: large;
     color: var(--cor2);
     font-size: 32px;
+    
+}
+main h2#principal {
     text-align: center;
 }
 
 main h2#t2 {
     margin-bottom: 15px;
-    text-align: center;
+    
 }
 
 main h3 {
@@ -139,12 +142,39 @@ main p {
 main img {
     display: block;
     margin: auto;
+    padding: 0px 15px 15px 15px;
+    width: 300px;
+    height: 200px;
 }
 
 main img#ima {
-
     width: 300px;
 
 }
 
 /* rodapé */
+
+footer {
+    color: white;
+    padding: 24px;
+    text-align: center;
+    min-height: 25px;
+    text-shadow: 0px 0px 3px black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+
+    text-decoration: underline;
+}
+
+
+
