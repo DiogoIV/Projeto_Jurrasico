@@ -1,13 +1,24 @@
-const but = window.document.getElementById('click01')
+// página para carnivoros
+const but1 = document.getElementById("click01")
 
-const main = window.document.querySelector('main')
+const main = document.querySelector('main')
+   
 
 
-but.addEventListener('click', function() {
+but1.addEventListener("click", function () {
     main.innerHTML = ''
-    let texto = document.createTextNode('Dinossauros Carnivoros')
-    let t1 = document.createElement('h1')
-    t1.appendChild(texto)
-    main.appendChild(t1)
+    let h2 = document.createElement('h2')
+    h2.id = 'principal'
+    h2.textContent = 'Dinossauros carnivoros'
+    main.appendChild(h2)
+    
+    const texto = ["Dinossauros carnívoros pertenciam a uma classe chamada terópodes, com grandes espécimes em todos os continentes. Eles eram bípedes, com crânios massivos e dentes poderosos. Na África, o espinossauro era o maior. Na América do Norte, o tiranossauro reinava no topo da cadeia alimentar. Já na América do Sul, o gigantossauro era o predador no ápice da cadeia alimentar.",]  
+    texto.forEach(function(text) {
+        const p = document.createElement('p')
+        p.textContent = text
+        main.appendChild(p)
+    })
 
+    
 })
+
