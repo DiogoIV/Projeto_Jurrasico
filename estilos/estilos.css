@@ -31,7 +31,7 @@ header {
     position: relative;
     background-image: url(../imagens/dino.png);
     background-repeat: no-repeat;
-    background-position: center 42%;
+    background-position: center ;
     background-size: cover;
     box-shadow: 0px 0px 3px black;
     height: 230px;
@@ -140,7 +140,7 @@ main p {
 }
 
 main img {
-    
+    display: block;
     margin: auto;
     padding: 0px 15px 15px 15px;
     width: 300px;
