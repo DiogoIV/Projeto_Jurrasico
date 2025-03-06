@@ -51,6 +51,11 @@ header h1 {
     transition: width 5s ease;
 }
 
+header a{
+    color: var(--2);
+    text-decoration: none;
+}
+
 
 nav  {
     position: relative;
