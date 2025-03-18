@@ -166,11 +166,12 @@ main img#ima {
 
 /* rodapé */
 footer {
+    height: 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #025951;
+    background-color: #02735E;
     color: white;
     padding: 20px;
     margin-top: 15px;

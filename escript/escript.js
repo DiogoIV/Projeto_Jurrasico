@@ -1,6 +1,8 @@
 // página para carnivoros
 const but1 = document.getElementById("click01")
 
+const but2 = document.querySelector("#click02")
+
 const main = document.querySelector('main')
 
 // Definindo os dados em um array de objetos
@@ -45,4 +47,8 @@ but1.addEventListener('click', () => {
             main.appendChild(elemento)
         }
     })
+})
+
+but2.addEventListener('click', (el) => {
+
 })
