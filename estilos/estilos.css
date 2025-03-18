@@ -127,7 +127,7 @@ main h3 {
     color: #034d45;
 }
 
-main h3#t3 {
+.t3 {
     background-image: linear-gradient(to right, #034d4693, transparent);
 }
 
@@ -149,7 +149,7 @@ main p {
     text-align: justify;
 }
 
-main img {
+img {
     display: block;
     margin: auto;
     padding: 0px 15px 15px 15px;
@@ -158,11 +158,11 @@ main img {
 }
 
 main img#ima {
-
     width: 210px;
     margin: auto;
 
 }
+
 
 /* rodapé */
 
