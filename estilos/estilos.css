@@ -58,15 +58,15 @@ header a{
 }
 
 
-nav  {
+header < nav {
     position: relative;
     top: 26%;
-    right: 5%
+    right: 5%;
     
     
 }
 
-nav a {
+header nav a {
     
     border: 2px solid var(--cor2);
     background-color: transparent;
@@ -82,7 +82,7 @@ nav a {
     opacity: 0.7;
 }
 
-nav a:hover {
+header nav a:hover {
 
     padding: 7px;
     transition: 0.5s;
@@ -165,28 +165,40 @@ main img#ima {
 
 
 /* rodapé */
-
 footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #025951;
     color: white;
-    padding: 24px;
-    text-align: center;
-    min-height: 25px;
-    text-shadow: 0px 0px 3px black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 15px;
     
 }
 
+footer nav {
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+
 footer a {
     color: white;
-    text-decoration: none;
-
+    font-size: 1.2em;
+    transition: 0.3s;
 }
 
 footer a:hover {
-
     text-decoration: underline;
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 
 
