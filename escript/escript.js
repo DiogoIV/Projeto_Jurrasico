@@ -17,7 +17,7 @@ const total = [
     {tipo: 'img', conteudo: "./t-rex.jpg", alt:'imagem do Tiranossauro rex'},
     {tipo: 'h3', conteudo: "Megalodonte"},
     {tipo: 'p', conteudo: 'O Megalodonte (nome científico Carcharocles megalodon) foi um tubarão pré-histórico que viveu entre 23 e 3,6 milhões de anos atrás, durante o período Cenozoico. Considerado o maior tubarão e um dos maiores predadores marinhos que já existiram, o Megalodonte podia medir até 18 metros de comprimento e pesar até 60 toneladas. Ele se alimentava de grandes mamíferos marinhos, como baleias e focas, graças à sua mandíbula imensa e dentes afiados, que podiam chegar a 18 cm de comprimento. Seu nome científico, Carcharocles megalodon, vem do grego: "Carcharos" significa "afiado", "ocles" refere-se a "dente", e "megalodon" significa "dente grande", refletindo sua enorme dentição. O Megalodonte é frequentemente retratado na cultura popular como um monstro marinho, embora tenha sido extinto há milhões de anos.'},
-    {tipo: 'img', conteudo:'./imagens/megalodon.jpg', alt: 'Imagem do megalodon'}
+    {tipo: 'img', conteudo:'./megalodon.jpg', alt: 'Imagem do megalodon'}
 ]
 
 but1.addEventListener('click', () => {
