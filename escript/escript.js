@@ -14,10 +14,10 @@ const total = [
     {tipo: 'img', conteudo: "./imagens/espinossauro.jpg", alt: 'Imagem do espinossauro'},
     {tipo: 'h3', conteudo: "Tyrannosaurus rex"},
     {tipo: 'p', conteudo: "O Tyrannosaurus rex foi um dos maiores predadores terrestres, vivendo no Cretáceo, entre 68 e 66 milhões de anos atrás, na América do Norte. Com cerca de 12 metros de comprimento e pesando entre 7 e 9 toneladas, ele se destacava pela sua enorme cabeça, repleta de dentes afiados de até 20 cm, e pela sua mordida extremamente poderosa, capaz de esmagar ossos. Embora tivesse braços pequenos, eles eram fortes e, possivelmente, desempenhavam algum papel durante a caça ou luta."},
-    {tipo: 'img', conteudo: "./imagens/t-rex.jpg", alt:'imagem do Tiranossauro rex'},
+    {tipo: 'img', conteudo: "imagens/t-rex.jpg", alt:'imagem do Tiranossauro rex'},
     {tipo: 'h3', conteudo: "Megalodonte"},
     {tipo: 'p', conteudo: 'O Megalodonte (nome científico Carcharocles megalodon) foi um tubarão pré-histórico que viveu entre 23 e 3,6 milhões de anos atrás, durante o período Cenozoico. Considerado o maior tubarão e um dos maiores predadores marinhos que já existiram, o Megalodonte podia medir até 18 metros de comprimento e pesar até 60 toneladas. Ele se alimentava de grandes mamíferos marinhos, como baleias e focas, graças à sua mandíbula imensa e dentes afiados, que podiam chegar a 18 cm de comprimento. Seu nome científico, Carcharocles megalodon, vem do grego: "Carcharos" significa "afiado", "ocles" refere-se a "dente", e "megalodon" significa "dente grande", refletindo sua enorme dentição. O Megalodonte é frequentemente retratado na cultura popular como um monstro marinho, embora tenha sido extinto há milhões de anos.'},
-    {tipo: 'img', conteudo:'./imagens/megalodon.jpg', alt: 'Imagem do megalodon'}
+    {tipo: 'img', conteudo:'imagens/megalodon.jpg', alt: 'Imagem do megalodon'}
 ]
 
 but1.addEventListener('click', () => {
