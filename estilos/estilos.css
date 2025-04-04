@@ -29,7 +29,6 @@ html, body {
 
 /*---Cabeçalho---*/
 header {
-    position: relative;
     background-image: url(../imagens/dino.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -57,29 +56,14 @@ header a{
     text-decoration: none;
 }
 
-
-header < nav {
-    position: relative;
-    top: 26%;
-    right: 5%;
-    
-    
+header nav {
+    display: flex;
+    align-self: flex-start;
+    border: 1px dashed black;
 }
 
 header nav a {
     
-    border: 2px solid var(--cor2);
-    background-color: transparent;
-    padding: 5px;
-    color: #e5c2fa94;
-    text-shadow: 0px 1px 1px black;
-    background-color: #02595034;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-    font-size: 1em;
-    font-family: var(--font01);
-    opacity: 0.7;
 }
 
 header nav a:hover {
