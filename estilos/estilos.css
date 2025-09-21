@@ -3,18 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
-html, body {
-    min-height: 100%;
-    width: 100%;
-    -webkit-tap-highlight-color: transparent;
-}
-
 * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
 
 :root {
     --cor0: #0CF25D;
@@ -29,48 +30,10 @@ html, body {
 
 /*---Cabeçalho---*/
 header {
-    background-image: url(../imagens/dino.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0px 0px 3px black;
-    height: 230px;
-    padding: 20px;
-}
-
-    
-
-header h1 {
-    color: #e5c2fa94;
-    text-align: center;
-    opacity: 0.7;
-    font-size: 2em;
-    font-family: var(--font01);
-    text-shadow: 1px 1px 1px black;
-    margin-top: 50px;
-    transition: width 5s ease;
-}
-
-header a{
-    color: var(--2);
-    text-decoration: none;
-}
-
-header nav {
-    display: flex;
-    align-self: flex-start;
-    border: 1px dashed black;
-}
-
-header nav a {
     
 }
 
-header nav a:hover {
-
-    padding: 7px;
-    transition: 0.5s;
-}
+    
 
 /*---Principal---*/
 
@@ -78,111 +41,10 @@ body {
     background-image: linear-gradient(to bottom, #f4f4f4, #d6d6d6)
 }
 
-main {
-    color: #333;
-    padding: 20px;
-    width: 270px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    border-radius: 0px 0px 10px 10px;
-    margin: auto;
-    transition: width 0.5s ease;
-}
- 
-main h2 {
-    font-family: var(--font01);
-    text-shadow: 0px 0px 1px black;
-    font-size: large;
-    color: var(--cor2);
-    font-size: 32px;
-    
-}
-main h2#principal {
-    text-align: center;
-}
-
-main h2#t2 {
-    margin-bottom: 15px;
-    
-}
-
-main h3 {
-    padding: 5px;
-    color: #034d45;
-}
-
-.t3 {
-    background-image: linear-gradient(to right, #034d4693, transparent);
-}
-
-main a.link {
-    text-decoration: none;
-    color: #034d45;
-    background-color: #69c4b3;
-}
-
-main a.link:hover {
-    text-decoration: underline;
-}
-main p {
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 15px;
-    line-height: 2em;
-    font-weight: none;
-    text-align: justify;
-}
-
-img {
-    display: block;
-    margin: auto;
-    padding: 0px 15px 15px 15px;
-    width: 210px;
-    height: 200px;
-}
-
-main img#ima {
-    width: 210px;
-    margin: auto;
-
-}
 
 
 /* rodapé */
-footer {
-    height: 90px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #02735E;
-    color: white;
-    padding: 20px;
-    margin-top: 15px;
-    
-}
 
-footer nav {
-    display: flex;
-    justify-content: flex-start;
-    
-    
-}
-
-
-footer a {
-    color: white;
-    font-size: 1.2em;
-    transition: 0.3s;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-ul {
-    list-style-type: none;
-}
 
 
 
