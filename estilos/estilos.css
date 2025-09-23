@@ -30,7 +30,34 @@ html, body {
 
 /*---Cabeçalho---*/
 header {
+    background: url(../imagens/dino.png);
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    grid-template: 2fr 1fr / 1fr ;
+    place-items: center;
+    min-height: 150px;
     
+}
+
+h1 {
+    font-size: clamp(26px, 5vw, 35px);
+    font-family: var(--font01);
+    margin-top: 30px;
+    color: var(--cor2);
+}
+
+nav {
+    font-size: clamp(17px, 4vw, 18px);
+    font-family: var(--font02);
+    align-self: end;
+    padding: 5px;
+    justify-self: start;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor1);
 }
 
     
