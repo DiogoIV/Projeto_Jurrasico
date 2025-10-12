@@ -50,18 +50,21 @@ nav{
     
 }
 
-#esquerda {
-    display: flex;
-    padding-left: 5px;
-    font-size: 15px;
-}
+
 
 
 nav a {
     text-decoration: underline;
     padding-right: 6px;
     color: var(--cor1);
+    font-size: 14px;
     font-family: var(--font01);
+}
+
+#esquerda {
+    display: flex;
+    padding-left: 5px;
+    
 }
 
     
@@ -69,11 +72,49 @@ nav a {
 /*---Principal---*/
 
 body {
-    background-image: linear-gradient(to bottom, #f4f4f4, #d6d6d6)
+    line-height: 1.5em;
+}
+
+main {
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+main h1, .t2 {
+    font-size: 1.5em;
+    font-family: var(--font01);
+    color: var(--cor3);
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 90vw 1fr;
+}
+
+article > section, article aside {
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    grid-column:  2/3;
+}
+
+section#era {
+    
+   
+}
+
+article aside {
+    
 }
 
 .dino {
     width: 50%;
+    
 }
 
 
