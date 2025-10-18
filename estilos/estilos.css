@@ -79,8 +79,7 @@ nav a {
 }
 
 #esquerda a:hover {
-    color: var(--cor1);
-    transition: color 0.7s;
+    
 }
 
 
@@ -104,6 +103,8 @@ main h1, .t2 {
     color: var(--cor3);
 }
 
+
+
 h1 {
     
     font-size: 1.5em;
@@ -117,6 +118,7 @@ h2 {
 
 h3 {
     color: var(--cor3);
+    margin: 10px 0px;
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
@@ -153,6 +155,18 @@ section#era {
 
 article aside {
     
+}
+
+.link {
+    text-decoration: none;
+    font-family: var(--font03);
+    font-weight: bold;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0);
+    color: var(--cor3);
+}
+
+section a:hover {
+    text-decoration: underline;
 }
 
 .dino {
