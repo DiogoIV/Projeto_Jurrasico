@@ -178,6 +178,24 @@ section a:hover {
 
 /* rodapé */
 
+footer h4 {
+    color: white;
+}
+
+footer {
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr;
+    background-color: var(--cor3);
+    font-family: var(--font01);
+    font-size: 12px;
+}
+
+footer nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
 
 
 
