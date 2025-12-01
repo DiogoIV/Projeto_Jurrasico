@@ -187,7 +187,7 @@ footer h4 {
 
 footer {
     display: grid;
-    grid-template: 1fr/ 1fr 1fr;
+    grid-template: 1fr/ 1fr;
     background-color: var(--cor3);
     font-family: var(--font01);
     font-size: 12px;
@@ -200,6 +200,8 @@ footer nav {
     gap: 20px;
     
 }
+
+
 
 
 
