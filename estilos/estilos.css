@@ -176,7 +176,7 @@ section a:hover {
 
 /* rodapé */
 
-footer h4 {
+footer h4,footer {
     color: white;
 }
 
@@ -190,6 +190,7 @@ footer {
 }
 
 footer nav {
+    
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -197,6 +198,15 @@ footer nav {
     
 }
 
+footer a {
+    color: white;
+}
+
+
+.pequeno {
+    
+    font-size: 11px;
+}
 
 
 
