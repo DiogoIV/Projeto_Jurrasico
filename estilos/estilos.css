@@ -180,6 +180,10 @@ footer h4,footer {
     color: white;
 }
 
+footer h4 {
+    text-decoration: underline;
+}
+
 footer {
     display: grid;
     padding: 5px;
