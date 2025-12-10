@@ -168,8 +168,12 @@ section a:hover {
 }
 
 .dino {
-    width: 50%;
+    width: 100%;
     
+}
+
+#ovi {
+    height: 80px;
 }
 
 
@@ -182,12 +186,16 @@ footer h4,footer {
 
 footer h4 {
     text-decoration: underline;
+    text-align: justify;
+    font-size: 10px;
+    padding: 2px;
 }
 
 footer {
-    display: grid;
+    display: flex;
     padding: 5px;
-    grid-template: 1fr/ 1fr;
+    grid-template: auto/ auto;
+    gap: 5px;
     background-color: var(--cor3);
     font-family: var(--font01);
     font-size: 12px;
@@ -196,9 +204,10 @@ footer {
 footer nav {
     
     display: flex;
+    flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
     
 }
 
@@ -206,10 +215,20 @@ footer a {
     color: white;
 }
 
+nav.pequeno {
+    display: flex;
+    gap: 8px;
+    flex-wrap: now-wrap;  
+}
 
 .pequeno {
     
-    font-size: 11px;
+    font-size: 10px;
+}
+
+footer li {
+    list-style: none;
+    overflow-wrap: anywhere;
 }
 
 
