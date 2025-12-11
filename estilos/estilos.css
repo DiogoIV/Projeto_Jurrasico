@@ -180,25 +180,37 @@ section a:hover {
 
 /* rodapé */
 
+#grupo_01 {
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
 footer h4,footer {
     color: white;
 }
 
 footer h4 {
     text-decoration: underline;
-    text-align: justify;
     font-size: 10px;
-    padding: 2px;
+    margin-bottom: 5px;
 }
 
 footer {
     display: flex;
     padding: 5px;
-    grid-template: auto/ auto;
+    justify-content: space-between;
     gap: 5px;
     background-color: var(--cor3);
     font-family: var(--font01);
     font-size: 12px;
+}
+
+footer div {
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    gap: 3px;
+    
 }
 
 footer nav {
@@ -212,13 +224,19 @@ footer nav {
 }
 
 footer a {
+    font-size: 10px;
     color: white;
+    transition: trasnform 0.2s, color 0.2s;
+}
+
+footer a:hover {
+    transform: scale(1.2);
+    color: var(--cor0);
 }
 
 nav.pequeno {
     display: flex;
-    gap: 8px;
-    flex-wrap: now-wrap;  
+    flex-wrap: nowrap;  
 }
 
 .pequeno {
@@ -228,6 +246,7 @@ nav.pequeno {
 
 footer li {
     list-style: none;
+    cursor: ;
     overflow-wrap: anywhere;
 }
 
