@@ -168,12 +168,14 @@ section a:hover {
 }
 
 .dino {
-    width: 100%;
+    display: block;
+    width: 60%;
+    margin: auto;
     
 }
 
 #ovi {
-    height: 80px;
+    
 }
 
 
