@@ -9,3 +9,14 @@
         max-width: 150px;
     }
 }
+
+@media (min-width: 600px) {
+    .flexivel{
+        display: flex;
+
+    }
+    .flexivel  p{
+        text-align: justify;
+        margin-right: 15px;
+    }
+}
