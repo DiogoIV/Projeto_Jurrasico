@@ -56,7 +56,7 @@ header nav{
 header nav a {
     text-decoration: none;
     color: #f5f5f5;
-    font-size: 14px;
+    font-size: 1.2em;
     font-family: var(--font01);
 }
 
@@ -77,12 +77,6 @@ header nav a {
     text-decoration: underline;
     
 }
-
-#esquerda a:hover {
-    
-}
-
-
 
     
 
@@ -108,19 +102,19 @@ main h1, .t2 {
 
 h1 {
     
-    font-size: 1.2em;
+    font-size: 1.4rem;
     text-decoration: underline;
     
 }
 
 h2 {
-    font-size: 1.0em;
+    font-size: 1.4rem;
 }
 
 h3 {
     color: var(--cor3);
     margin: 10px 0px;
-    font-size: 13px;
+    font-size: 1.2em;
     padding-left: 3px;
     background-image: linear-gradient(to right, var(--cor1), transparent);
 }
@@ -133,7 +127,7 @@ p {
     line-height: 1.6em;
     margin: 10px 0px;
 
-    font-size: 10px;
+    font-size: 1em;
     
     
 }
@@ -174,12 +168,6 @@ section a:hover {
     
 }
 
-#ovi {
-    
-}
-
-
-
 /* rodapé */
 
 #grupo_01 {
@@ -193,7 +181,6 @@ footer h4,footer {
 
 footer h4 {
     text-decoration: underline;
-    font-size: 10px;
     margin-bottom: 5px;
 }
 
@@ -204,7 +191,8 @@ footer {
     gap: 5px;
     background-color: var(--cor3);
     font-family: var(--font01);
-    font-size: 12px;
+    font-size: 1.2em;
+    
 }
 
 footer div {
@@ -226,7 +214,7 @@ footer nav {
 }
 
 footer a {
-    font-size: 10px;
+    font-size: 0.8em;
     color: white;
     transition: trasnform 0.2s, color 0.2s;
 }
@@ -238,13 +226,9 @@ footer a:hover {
 
 nav.pequeno {
     display: flex;
-    flex-wrap: nowrap;  
+    flex-wrap: nowrap; 
 }
 
-.pequeno {
-    
-    font-size: 10px;
-}
 
 footer li {
     list-style: none;
