@@ -11,12 +11,20 @@
 }
 
 @media (min-width: 600px) {
+
+    body {
+        font-size: 18px;
+    }
     .flexivel{
         display: flex;
-
+        align-items: center;
+        gap: 20px;
     }
     .flexivel  p{
         text-align: justify;
-        margin-right: 15px;
+        flex: 1;
+    }
+    #ima {
+        height: 200px;
     }
 }
