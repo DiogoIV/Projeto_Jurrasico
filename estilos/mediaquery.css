@@ -10,10 +10,12 @@
     }
 }
 
-@media (min-width: 600px) {
-
+@media (min-width: 600px) and (max-width: 1000px){
+    main h1, h2 {
+        font-size: 1.5em;
+    }
     body {
-        font-size: 18px;
+        font-size: 20px;
     }
     .flexivel{
         display: flex;
@@ -27,3 +29,13 @@
     .dino {
         height: 200px;
     }
+}
+@media  (min-width:1000px) {   
+    main h1, h2 {
+        font-size: 1.5em;
+    }
+    body {
+        
+        font-size: 20px;
+    }
+}  
