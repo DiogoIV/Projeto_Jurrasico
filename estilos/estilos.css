@@ -9,9 +9,16 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: var(--font03);
 }
 
 :root {
+    --cor0: #985EBF;
+    --cor1: #864695;
+    --cor2: #552973;
+    --cor3: #250730;
+    --cor4: #130526;
+
     --font01: "Inter", sans-serif;
     --font02: "Bangers", system-ui;
     --font03: "Creepster", sans-serif;
@@ -22,21 +29,149 @@ body {
     letter-spacing: 2px;
     background-image: url(../imagens/Fundo.png);
     background-size: cover;
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
+    overflow: hidden;
+    letter-spacing: 3px;
+
+}
+
+/*Cabeçalho*/
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+
+    height: 100px;
+    background: rgba(19, 5, 38, 0.6); 
+   
+    backdrop-filter: blur(4px);
+    
+
+}
+
+header h2 {
+    color: white;
+    text-shadow: 20px 4px 20px black;
+    pointer-events: none;
+    
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;   
+   
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor3), var(--cor2));
+
+    box-shadow: -10px 0 25px rgba(0, 0, 0, 0.6);
+    transform: translateX(200%);
+    transition: 0.5s ease;
+    z-index: 200;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 3em;
+    list-style-type: none;
+}
+
+.menu.menu_ativo {
+    transform: translateX(0);
+}
+
+.overlay {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100;
+    transition: 0.3s;
+    
+}
+
+.overlay.ativo{
+    opacity: 1;
+    pointer-events:auto;
+    
+}
+
+#btn_menu {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+
+
+}
+
+nav {
+    position: absolute;
+}
+
+nav a{
+    
+    position: relative;
+    color: white;
+    text-decoration: none;
+
+    font-family: var(--font01);
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: var(--cor0);
+    height: 3px;
+    width: 100%;
+
+    transform: scaleX(0);
+    transition: 0.5s ease;
+    transform-origin: center;
+}
+
+nav a:hover {
+    width: 100%;
+    padding-top: 5px;
+    color: var(--cor2);
+    
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+/*Corpo*/
+
+main.conteiner {
+    max-width: 600px;
+    margin: auto;
    
 }
-
-header{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:15px 40px;
-    
-    height: 100px;
-    background: rgba(19,5,38,0.6);
-    backdrop-filter: blur(8px);
-    z-index: 99;
-}
-
 
