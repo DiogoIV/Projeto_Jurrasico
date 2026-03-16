@@ -9,7 +9,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: var(--font03);
+    
 }
 
 :root {
@@ -44,7 +44,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 40px;
-
+    font-family: var(--font03);
+    
     height: 100px;
     background: rgba(19, 5, 38, 0.6); 
    
@@ -170,8 +171,14 @@ nav a:hover::after {
 /*Corpo*/
 
 main.conteiner {
-    max-width: 600px;
-    margin: auto;
-   
+  
 }
+
+section{
+    border: 1px solid red;
+}
+
+
+
+
 
