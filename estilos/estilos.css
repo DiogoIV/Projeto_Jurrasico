@@ -85,12 +85,7 @@ header h2 {
     z-index: 999;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-}
-
-header ul, nav ul {
+header ul, nav.menu ul {
     display: flex;
     margin-top: 40px;
     flex-direction: column;
@@ -137,11 +132,13 @@ header ul, nav ul {
 
 }
 
-nav {
+nav.menu {
     position: absolute;
+    display: flex;
+    justify-content: center;
 }
 
-nav a{
+nav.menu a{
     
     position: relative;
     color: white;
@@ -150,7 +147,7 @@ nav a{
     font-family: var(--font01);
 }
 
-nav a::after{
+nav.menu a::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -165,14 +162,14 @@ nav a::after{
     transform-origin: center;
 }
 
-nav a:hover {
+nav.menu a:hover {
     width: 100%;
     padding-top: 5px;
     color: var(--cor2);
     
 }
 
-nav a:hover::after {
+nav.menu a:hover::after {
     transform: scaleX(1);
 }
 
@@ -272,6 +269,23 @@ section.all p {
     max-height: 100%;
     object-fit: contain;
 }
+
+/*rodapé*/
+
+footer.rodape {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    min-height: 200px;
+    margin-top: 50px;
+    font-family: var(--font01);
+    color: white;
+    padding: 20px;
+    background: rgba(19, 5, 38, 0.828);
+    backdrop-filter: blur(8px);
+    z-index: 999;
+}
+
+
 
 
 
