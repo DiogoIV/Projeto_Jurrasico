@@ -274,15 +274,24 @@ section.all p {
 
 footer.rodape {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    min-height: 200px;
-    margin-top: 50px;
+
+
     font-family: var(--font01);
-    color: white;
     padding: 20px;
     background: rgba(19, 5, 38, 0.828);
     backdrop-filter: blur(8px);
     z-index: 999;
+}
+
+footer.rodape, footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.footer_list {
+    display: flex;
+    list-style: none;
 }
 
 
