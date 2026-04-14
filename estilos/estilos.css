@@ -71,7 +71,7 @@ header h2 {
 
     width: 40%;
     max-width: 300px;
-    height: 100vh;
+    height: 100dvh;
     padding: 30px 20px;
 
     background: rgba(19, 5, 38, 0.85);
@@ -134,7 +134,7 @@ header ul, nav.menu ul {
 }
 
 nav.menu {  
-    position: absolute;
+
     display: flex;
     justify-content: center;
 }
