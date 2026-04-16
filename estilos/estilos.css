@@ -273,28 +273,25 @@ section.all p {
 
 /*rodapé*/
 
-footer.rodape > div#conteiner_footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
-    
-   
-    gap: 16px;
+footer.rodape{
     font-family: var(--font01);
     padding: 30px;
     background: rgba(19, 5, 38, 0.828);
     backdrop-filter: blur(8px);
     z-index: 999;
 }
-
+div#conteiner_footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; 
+    gap: 16px;
+}
 
 footer h3 {
     font-size: 1.0em;
 }
 
 footer.rodape, footer a {
-    grid-template-columns: repeat(3, 1fr);
-
     text-align: center;
     font-size: 15px;
     color: white;
@@ -314,10 +311,7 @@ footer.rodape li {
     
 }
 
-.redes {
-    display: flex;
-    flex-direction: row ;
-}
+
 
 .fa-brands {
     font-size: 1.4em;

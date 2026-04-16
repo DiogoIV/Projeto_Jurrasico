@@ -1,7 +1,14 @@
 @media (min-width: 720px) {
+    div#conteiner_footer {
+        width: 90%;
+        margin: auto;
+    }
     
 }
 
-@media (min-width: 1024px) {
-    
+@media (min-width: 1020px) {
+    div#conteiner_footer {
+        width: 70%;
+        margin: auto;
+    }
 }
