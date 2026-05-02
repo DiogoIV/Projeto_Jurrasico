@@ -1,4 +1,4 @@
-const main = document.querySelector('conteudo')
+const main = document.querySelector('#conteudo')
 const btn = document.getElementById('btn_menu')
 const nav = document.querySelector('.menu')
 const overlay = document.querySelector('.overlay')
@@ -17,10 +17,18 @@ function menu () {
     })
 }
 
-async function carregarPagina (pagina) {
-    
+async function carregarPagina (paginas) {
+    const res = await fetch(paginas)
+    const html = await res.text()
+
+    main.innerHTML = html
 }
 
+
+document.querySelector('#btnCarnivoros').addEventListener('click', (e) => {
+    e.preventDefault()
+    carregarPagina('paginas/pagina-carnivoros.html')
+})
 
 
 
