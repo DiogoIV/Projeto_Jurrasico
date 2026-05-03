@@ -1,0 +1,31 @@
+
+
+/* :root {
+    --cor0: #985EBF;
+    --cor1: #864695;
+    --cor2: #552973;
+    --cor3: #250730;
+    --cor4: #130526;
+
+    --font01: "Inter", sans-serif;
+    --font02: "Bangers", system-ui;
+    --font03: "Creepster", sans-serif;
+} */
+
+
+     /* Carnivoros */
+
+.titulo3_carnivoros {
+    
+    background-color: var(--cor4);
+    color: var(--cor1);
+    border-radius: 10px 10px;
+
+    padding: 2px 0px 2px 15px;
+    margin: 10px 0px;
+
+    font-size: 1.2em;
+    font-family: var(--font01);
+    
+    
+}
