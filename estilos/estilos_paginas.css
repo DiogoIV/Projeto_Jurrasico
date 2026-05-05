@@ -29,3 +29,16 @@
     
     
 }
+
+.img_carnivoros {
+    display: block;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px black;
+    width: 100%;
+    margin: auto;
+}
+
+h3.titulo03 {
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+}
