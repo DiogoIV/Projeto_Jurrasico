@@ -15,12 +15,12 @@
 
      /* Carnivoros */
 
-.titulo3_carnivoros {
+.titulo3_carnivoros, .titulo3_herbivoros {
     
-    background-color: var(--cor4);
-    color: var(--cor1);
+    background-color: var(--cor1);
+    color: var(--cor4);
     border-radius: 10px 10px;
-
+    
     padding: 2px 0px 2px 15px;
     margin: 10px 0px;
 
@@ -30,10 +30,10 @@
     
 }
 
-.img_carnivoros {
+.img_carnivoros, .img_herbivoros {
     display: block;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px black;
+    box-shadow: 0px 0px 0px 0px black;
     width: 100%;
     margin: auto;
 }
@@ -42,3 +42,4 @@ h3.titulo03 {
     margin-top: 2em;
     margin-bottom: 1.2em;
 }
+

@@ -30,6 +30,11 @@ document.querySelector('#btnCarnivoros').addEventListener('click', (e) => {
     carregarPagina('paginas/pagina-carnivoros.html')
 })
 
+document.querySelector('#btnHerbivoros').addEventListener('click', (e)=> {
+    e.preventDefault()
+    carregarPagina('paginas/pagina-herbivoros.html')
+})
+
 
 
 menu()
