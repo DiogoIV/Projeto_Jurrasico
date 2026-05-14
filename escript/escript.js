@@ -24,7 +24,6 @@ async function carregarPagina (paginas) {
     main.innerHTML = html
 }
 
-
 document.querySelector('#btnCarnivoros').addEventListener('click', (e) => {
     e.preventDefault()
     carregarPagina('../paginas/pagina-carnivoros.html')
