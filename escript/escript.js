@@ -26,12 +26,12 @@ async function carregarPagina (paginas) {
 
 document.querySelector('#btnCarnivoros').addEventListener('click', (e) => {
     e.preventDefault()
-    carregarPagina('../paginas/pagina-carnivoros.html')
+    carregarPagina('/paginas/pagina-carnivoros.html')
 })
 
 document.querySelector('#btnHerbivoros').addEventListener('click', (e)=> {
     e.preventDefault()
-    carregarPagina('../paginas/pagina-herbivoros.html')
+    carregarPagina('/paginas/pagina-herbivoros.html')
 })
 
 
