@@ -34,6 +34,10 @@ document.querySelector('#btnHerbivoros').addEventListener('click', (e)=> {
     carregarPagina('paginas/pagina-herbivoros.html')
 })
 
+document.querySelector('#btnOnivoros').addEventListener('click', (e)=> {
+    e.preventDefault()
+    carregarPagina('paginas/pagina-onivoros.html')
+})
 
 
 menu()

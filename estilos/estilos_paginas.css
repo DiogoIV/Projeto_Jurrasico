@@ -15,7 +15,7 @@
 
      /* Carnivoros */
 
-.titulo3_carnivoros, .titulo3_herbivoros {
+.titulo3_carnivoros, .titulo3_herbivoros, .titulo3_onivoros {
     
     background-color: var(--cor1);
     color: var(--cor4);
@@ -30,7 +30,7 @@
     
 }
 
-.img_carnivoros, .img_herbivoros {
+.img_carnivoros, .img_herbivoros, .img_onivoros {
     display: block;
     border-radius: 10px;
     box-shadow: 0px 0px 0px 0px black;
