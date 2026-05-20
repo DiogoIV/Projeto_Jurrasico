@@ -3,6 +3,30 @@
         width: 90%;
         margin: auto;
     }
+
+
+    .conteiner_card {
+        clear: both;
+    }
+
+    .redemensionar {
+            float: right;
+            margin: 0 0 1em 1.5em;
+    }
+
+    .texto {
+        display: block;
+        margin: 1em 0px 1em 0px;
+    }
+
+    .img_carnivoros, .img_herbivoros, .img_onivoros {
+        max-width: 450px;
+        height: auto;
+        display: block;
+   
+    }      
+ 
+ 
     
 }
 
