@@ -45,9 +45,10 @@
     max-width: 450px;
     height: 300px;
     object-fit: cover;
+    object-position: center;
     
 }
-.titulo3_carnivoros {
+.titulo3_carnivoros, .titulo3_herbivoros, .titulo3_onivoros {
     margin-top: 5em;
     margin-bottom: 1.2em;
 }   

@@ -30,9 +30,18 @@
     
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1500px) {
     div#conteiner_footer {
         width: 70%;
+        margin: auto;
+    }
+
+    main.conteiner{
+        
+    }
+
+    section.principal {
+        width: 80%;
         margin: auto;
     }
 }
