@@ -60,8 +60,18 @@ header {
 header h2 {
     color: white;
     text-shadow: 20px 4px 20px black;
-    pointer-events: none;
     
+    
+}
+
+header h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 a:hover {
+    color: var(--cor2);
+    text-decoration: none;
 }
 
 .menu {
@@ -294,9 +304,18 @@ footer h3 {
 footer.rodape, footer a {
     text-align: center;
     font-size: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     
+}
+
+div.texto_footer a {
+    color: #dcdcdc;
+}
+
+div.texto_footer a:hover {
+    color: white;
+    text-decoration: underline;
 }
 footer.rodape li {
     list-style: none;

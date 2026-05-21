@@ -24,19 +24,37 @@ async function carregarPagina (paginas) {
     main.innerHTML = html
 }
 
-document.querySelector('#btnCarnivoros').addEventListener('click', (e) => {
+
+
+document.querySelectorAll('.btnCarnivoros').forEach(el => {
+    el.addEventListener('click', (e) => {
     e.preventDefault()
     carregarPagina('paginas/pagina-carnivoros.html')
+    })
 })
 
-document.querySelector('#btnHerbivoros').addEventListener('click', (e)=> {
-    e.preventDefault()
-    carregarPagina('paginas/pagina-herbivoros.html')
+document.querySelectorAll('.btnHerbivoros').forEach(el => {
+    el.addEventListener('click', (e) => {
+        e.preventDefault()
+        carregarPagina('paginas/pagina-herbivoros.html')
+    })
 })
 
-document.querySelector('#btnOnivoros').addEventListener('click', (e)=> {
+document.querySelectorAll('.btnOnivoros').forEach(el => {
+    el.addEventListener('click', (e) => {
+        e.preventDefault()
+        carregarPagina('paginas/pagina-onivoros.html')
+    })
+})
+
+document.querySelector('#link_sobre').addEventListener('click', (e)=> {
     e.preventDefault()
-    carregarPagina('paginas/pagina-onivoros.html')
+    carregarPagina('paginas/pagina-sobre.html')
+})
+
+document.querySelector('#link_políticas').addEventListener('click', (e)=> {
+    e.preventDefault()
+    carregarPagina('paginas/pagina-politicas.html')
 })
 
 
